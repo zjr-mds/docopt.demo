@@ -11,6 +11,7 @@ Options:
 " -> doc
 
 library(docopt)
+opt <- docopt(doc)
 
 main <- function(opt) {
     print(opt)
@@ -18,4 +19,5 @@ main <- function(opt) {
     print(opt$arg4)
 }
 
+main(opt)
 
