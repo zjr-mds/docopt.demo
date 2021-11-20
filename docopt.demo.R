@@ -14,9 +14,8 @@ library(docopt)
 
 main <- function(opt) {
     print(opt)
-    print(typeof(opt))
-    print(opt$arg4) 
+    print(typeof(opt)) 
+    print(opt$arg4)
 }
-
 
 
