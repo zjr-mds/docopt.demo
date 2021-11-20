@@ -18,6 +18,5 @@ main <- function(opt) {
     print(typeof(opt)) 
     print(opt$arg4)
 }
-
 main(opt)
 
